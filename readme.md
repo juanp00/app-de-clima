@@ -1,3 +1,6 @@
+Claro, aqui está o arquivo README atualizado com as informações fornecidas:
+
+```markdown
 # App de Clima - Aplicativo Web de Consulta de Clima
 
 O App de Clima é um aplicativo web simples de consulta de clima que utiliza a API do OpenWeather para obter informações climáticas em tempo real. Ele permite que os usuários pesquisem o clima de qualquer cidade em todo o mundo.
@@ -10,7 +13,9 @@ Antes de executar o App de Clima, você precisa ter a chave de API do OpenWeathe
 ```javascript
 export const apiKey = "sua_chave_da_api_aqui";
 export const apiCountryUrl = "https://flagsapi.com/";
-export const extensionCoutryUrl = "/flat/32.png";
+export const extensionCountryUrl = "/flat/32.png";
+export const accessKeyImg = "F2iyt4xGfbZmyuQRq_D94D_AA9kQMKqti0Cl4xv4eQw";
+export const secretKeyImg = "17NnvcDagu45LqVlr-RPQPSPR3V8R2h6DMXay_DI3NU";
 ```
 
 ## Como executar o App de Clima
@@ -49,3 +54,6 @@ Contribuições são bem-vindas! Se você encontrar algum problema ou tiver idei
 ## Licença
 
 O App de Clima é distribuído sob a licença MIT.
+```
+
+Lembre-se de substituir `"sua_chave_da_api_aqui"` pelas suas chaves de API reais. Além disso, tenha cuidado ao compartilhar suas chaves secretas publicamente.
