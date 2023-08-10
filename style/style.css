@@ -9,15 +9,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(17, 176, 240) !important;
+    background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
     height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 main {
     max-width: 500px !important;
     border-radius: 12px;
     background-color: aliceblue;
     padding: 30px 50px !important;
+    margin: 10px !important;
 } 
+#result-content {
+    display: none;
+}
 .wrapper-search {
     position: relative;
     border: 1px solid #cccccc !important;
@@ -50,3 +57,28 @@ input {
 .text-graus {
     font-size: 50px;
 }
+
+#clima {
+    text-transform: capitalize;
+}
+
+.error {
+    display: none;
+    margin: 10px;
+    background-color: #ff1414;
+    color: #fff;
+    border-radius: 12px;
+    padding: 10px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+::selection {
+    background-color: #000;
+    color: #fff;
+}
+
+.animate {
+    opacity: 1;
+    transform: scaleY(1);
+    transition: opacity 3s ease, transform 3s ease;
+  }

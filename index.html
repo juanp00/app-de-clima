@@ -11,19 +11,22 @@
     <title>App de Clima</title>
 </head>
 <body>
+    <!-- Section search -->
     <main class="container text-center">
         <section>
             <div>
-                <h3 class="text-center">Confira o clima das cidades</h3>
+                <h3 class="text-center">PESQUISE O CLIMA DE ALGUMA CIDADE</h3>
             </div>
             <div class="wrapper-search">
                 <input type="search" name="" id="input-City">
                 <button id="btn-search"><i class="fa-solid fa-magnifying-glass" style="color: #fff;"></i></button>
             </div>
+            <div class="error">Não localizamos, verifique se você digitou corretamente.</div>
         </section>
 
         <hr class="mt-4 mb-3">
 
+        <!-- Section result -->
         <section class="" id="result-content">
             <div class="wrapper-city">
                 <img id="flag-img" src="https://flagsapi.com/BR/shiny/32.png">
@@ -31,16 +34,14 @@
             </div>
             <h2 class="text-graus pt-1"><span id="graus">20</span>ºC</h2>
             <div class="pt-2 d-flex justify-content-center align-items-center">
-                <img src="img/icon-sol.png" alt="Icone da temperatura">
+                <img class="iconWeather" src="https://openweathermap.org/img/wn/10d.png" alt="Icone da temperatura">
                 <h4 id="clima" style="font-weight: 600; padding-left: 10px;">Nublado</h4>
             </div>
             <div class="d-flex justify-content-center align-self-center pt-3">
                 <p style="font-weight: 500; border-right: 2px solid #868686; padding-right: 10px !important;"><i class="fa-sharp fa-solid fa-droplet p-2" style="color: #000000;"></i><span id="umidade">83</span>%</p>
                 <p style="font-weight: 500; "><i class="fa-solid fa-wind p-2" style="color: #000000;"></i><span id="vento">5,4</span> km/h</p>
             </div>
-
         </section>
-        
     </main>
     
     <script src="https://kit.fontawesome.com/0c64eb397a.js" crossorigin="anonymous"></script>
